@@ -1,0 +1,17 @@
+package com.angular.spring.fullstackangularspringboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@EnableAutoConfiguration
+@ComponentScan
+
+public class FullStackAngularSpringBootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FullStackAngularSpringBootApplication.class, args);
+	}
+}
